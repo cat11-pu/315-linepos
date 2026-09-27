@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "range_error_code": "E_OUT_OF_RANGE",
+  "span_error_code": "E_BAD_RANGE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "text": "ab\ncd", "found": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "insert", "pos": 2, "text": "XY" },
+    { "id": 2, "kind": "at", "pos": 3 },
+    { "id": 3, "kind": "delete", "from": 2, "to": 4 },
+    { "id": 4, "kind": "at", "pos": 3 }
+  ]
+}
